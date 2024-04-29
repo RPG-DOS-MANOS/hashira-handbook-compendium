@@ -13,7 +13,7 @@ Hooks.once("init", () => {
     CONFIG.DND5E.weaponProficiencies.fogo = "Armas de Fogo";
     CONFIG.DND5E.weaponProficienciesMap.fogoR = "fogo";
 
-    CONFIG.DND5E.weaponIds.katana = "Compendium.hashira-handbook-compendium.itens.Item.RTUJzlbLcKZIkaeD";
+    
 
     //Armas pesadas Id
     CONFIG.DND5E.weaponIds.halberd = "Compendium.hashira-handbook-compendium.itens.Item.lYXZYxvWgahhBlpW";
@@ -24,8 +24,9 @@ Hooks.once("init", () => {
     CONFIG.DND5E.weaponIds.greataxe = "Compendium.hashira-handbook-compendium.itens.Item.k44PQqfbVJ6VDmxN";
     CONFIG.DND5E.weaponIds.maul = "Compendium.hashira-handbook-compendium.itens.Item.xI1AHUpEusPE3y0k";
 
-    
-    //CONFIG.DND5E.weaponIds.chakram = "Compendium.hashira-handbook-compendium.itens.Item.lYXZYxvWgahhBlpW";
+    //Armas unicas Id
+    CONFIG.DND5E.weaponIds.katana = "Compendium.hashira-handbook-compendium.itens.Item.RTUJzlbLcKZIkaeD";
+    CONFIG.DND5E.weaponIds.chakram = "Compendium.hashira-handbook-compendium.itens.Item.Orx9KuenEtwzQKJE";
     //CONFIG.DND5E.weaponIds.odachi = "Compendium.hashira-handbook-compendium.itens.Item.lYXZYxvWgahhBlpW";
     //CONFIG.DND5E.weaponIds.kunai = "Compendium.hashira-handbook-compendium.itens.Item.lYXZYxvWgahhBlpW";
     //CONFIG.DND5E.weaponIds.kusanagi = "Compendium.hashira-handbook-compendium.itens.Item.lYXZYxvWgahhBlpW";
