@@ -4,7 +4,7 @@ Hooks.once("init", () => {
     CONFIG.DND5E.weaponProficienciesMap.unicoR = "unico";
     CONFIG.DND5E.weaponProficienciesMap.unicoM = "unico";
 
-    CONFIG.DND5E.weponTypes.pesado = "Armas Pesadas";
+    CONFIG.DND5E.weaponTypes.pesado = "Armas Pesadas";
     CONFIG.DND5E.weaponProficiencies.pesado = "Armas Pesadas";
     CONFIG.DND5E.weaponProficienciesMap.pesadoR = "pesado";
     CONFIG.DND5E.weaponProficienciesMap.pesadoM = "pesado";
