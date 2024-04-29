@@ -46,6 +46,10 @@ Hooks.once("init", () => {
       isPhysical: "true"
     };
     CONFIG.DND5E.validProperties.weapon.add("decepadora");
-
+    //Tipo de Dano
+    CONFIG.DND5E.damageTypes.primordial = {
+      label: "Primordial",
+      isPhysical: false
+    };
     // etc etc
   });
