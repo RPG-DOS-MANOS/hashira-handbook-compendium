@@ -12,7 +12,7 @@ Hooks.once("init", () => {
     CONFIG.DND5E.weaponTypes.fogo = "Armas de Fogo";
     CONFIG.DND5E.weaponProficiencies.fogo = "Armas de Fogo";
     CONFIG.DND5E.weaponProficienciesMap.fogoR = "fogo";
-
+    
     
 
     //Armas pesadas Id
