@@ -46,6 +46,9 @@
       "discord": "ryanrodrics"
     }
   ],
+  "scripts":[
+    "scripts/armasUnicas.js"
+  ],
   "packs": [
     {
       "name": "classes",
