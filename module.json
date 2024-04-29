@@ -50,7 +50,7 @@
     "styles/ficha.css"
   ],
   "scripts":[
-    "scripts/armasUnicas.js"
+    "scripts/armas.js"
   ],
   "packs": [
     {

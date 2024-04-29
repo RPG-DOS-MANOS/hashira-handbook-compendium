@@ -38,6 +38,13 @@ Hooks.once("init", () => {
     //CONFIG.DND5E.weaponIds.shuriken = "Compendium.hashira-handbook-compendium.itens.Item.lYXZYxvWgahhBlpW";
     //CONFIG.DND5E.weaponIds.wakizashi = "Compendium.hashira-handbook-compendium.itens.Item.lYXZYxvWgahhBlpW";
 
-    
+
+    //Propriedades das Armas
+    CONFIG.DND5E.itemProperties.decepadora = {
+      label: "Decepadora",
+      isPhysical: "true"
+    };
+    CONFIG.DND5E.validProperties.weapon.add("decepadora");
+
     // etc etc
   });
