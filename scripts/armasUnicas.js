@@ -11,6 +11,21 @@ Hooks.once("init", () => {
 
     CONFIG.DND5E.weaponIds.katana = "Compendium.hashira-handbook-compendium.itens.Item.RTUJzlbLcKZIkaeD";
     CONFIG.DND5E.weaponIds.alabarda = "Compendium.hashira-handbook-compendium.itens.Item.lYXZYxvWgahhBlpW";
+
+    
+    //CONFIG.DND5E.weaponIds.chakram = "Compendium.hashira-handbook-compendium.itens.Item.lYXZYxvWgahhBlpW";
+    //CONFIG.DND5E.weaponIds.odachi = "Compendium.hashira-handbook-compendium.itens.Item.lYXZYxvWgahhBlpW";
+    //CONFIG.DND5E.weaponIds.kunai = "Compendium.hashira-handbook-compendium.itens.Item.lYXZYxvWgahhBlpW";
+    //CONFIG.DND5E.weaponIds.kusanagi = "Compendium.hashira-handbook-compendium.itens.Item.lYXZYxvWgahhBlpW";
+    //CONFIG.DND5E.weaponIds.kusarigama = "Compendium.hashira-handbook-compendium.itens.Item.lYXZYxvWgahhBlpW";
+    //CONFIG.DND5E.weaponIds.heavykusarigama = "Compendium.hashira-handbook-compendium.itens.Item.lYXZYxvWgahhBlpW";
+    //CONFIG.DND5E.weaponIds.tachi = "Compendium.hashira-handbook-compendium.itens.Item.lYXZYxvWgahhBlpW";
+    //CONFIG.DND5E.weaponIds.yumi = "Compendium.hashira-handbook-compendium.itens.Item.lYXZYxvWgahhBlpW";
+    //CONFIG.DND5E.weaponIds.senbon = "Compendium.hashira-handbook-compendium.itens.Item.lYXZYxvWgahhBlpW";
+    //CONFIG.DND5E.weaponIds.shanken = "Compendium.hashira-handbook-compendium.itens.Item.lYXZYxvWgahhBlpW";
+    //CONFIG.DND5E.weaponIds.shuriken = "Compendium.hashira-handbook-compendium.itens.Item.lYXZYxvWgahhBlpW";
+    //CONFIG.DND5E.weaponIds.wakizashi = "Compendium.hashira-handbook-compendium.itens.Item.lYXZYxvWgahhBlpW";
+
     
     // etc etc
   });
