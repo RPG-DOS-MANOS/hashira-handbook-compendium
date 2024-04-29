@@ -40,6 +40,17 @@ Hooks.once("init", () => {
     CONFIG.DND5E.weaponIds.tessen = "Compendium.hashira-handbook-compendium.itens.Item.hrQhUMmxf9xvhV0j";
     CONFIG.DND5E.weaponIds.wakizashi = "Compendium.hashira-handbook-compendium.itens.Item.5tpMJE2fIbnFadvn";
 
+    //Armas de Fogo Id
+    CONFIG.DND5E.weaponIds.baioneta = "Compendium.hashira-handbook-compendium.itens.Item.uS7aRcwjVtncnWpm";
+    CONFIG.DND5E.weaponIds.espingardadedoiscanos = "Compendium.hashira-handbook-compendium.itens.Item.xuc4LTShiWUDiBVE";
+    CONFIG.DND5E.weaponIds.espingardadoze = "Compendium.hashira-handbook-compendium.itens.Item.CI3o89b60kTsEkB7";
+    CONFIG.DND5E.weaponIds.magnum = "Compendium.hashira-handbook-compendium.itens.Item.9hmRCnUMWj2bDfv6";
+    CONFIG.DND5E.weaponIds.mosquete = "Compendium.hashira-handbook-compendium.itens.Item.BAfKctLzbU659cXm";
+    CONFIG.DND5E.weaponIds.pistola = "Compendium.hashira-handbook-compendium.itens.Item.Et28B9CjO4v9kvL5";
+    CONFIG.DND5E.weaponIds.pistoladedoiscanos = "Compendium.hashira-handbook-compendium.itens.Item.gpEFXX5ySkJLSZTI";
+    CONFIG.DND5E.weaponIds.revolver = "Compendium.hashira-handbook-compendium.itens.Item.fXQ4iJd8gnxmT4Y0";
+    CONFIG.DND5E.weaponIds.rifle = "Compendium.hashira-handbook-compendium.itens.Item.khOsbpX31KK3Fgxf";
+
 
     //Propriedades das Armas
     CONFIG.DND5E.itemProperties.decepadora = {
