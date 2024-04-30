@@ -113,22 +113,22 @@
       "label": "Característica de Personagem",
       "path": "packs/caracteristica-de-personagem",
       "type": "Item",
+      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e"
+      }
     },
     {
       "name": "inimigos",
       "label": "Inimigos",
       "path": "packs/inimigos",
       "type": "Actor",
+      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e"
+      }
     }
   ]
 }
