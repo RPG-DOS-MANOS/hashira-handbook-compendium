@@ -1,15 +1,8 @@
-2024/04/29-21:52:56.041 43fc Recovering log #114
-2024/04/29-21:52:56.050 43fc Delete type=0 #114
-2024/04/29-21:52:56.050 43fc Delete type=3 #112
-2024/04/30-04:29:24.646 138c Level-0 table #120: started
-2024/04/30-04:29:24.652 138c Level-0 table #120: 141855 bytes OK
-2024/04/30-04:29:24.656 138c Delete type=0 #118
-2024/04/30-04:29:24.665 138c Manual compaction at level-0 from '!folders!C8w0uHCVtGchfTsz' @ 72057594037927935 : 1 .. '!items.effects!uykHx8ED7VArFkgD.dA9r6esBvPD2vcY3' @ 0 : 0; will stop at (end)
-2024/04/30-04:29:24.672 138c Manual compaction at level-1 from '!folders!C8w0uHCVtGchfTsz' @ 72057594037927935 : 1 .. '!items.effects!uykHx8ED7VArFkgD.dA9r6esBvPD2vcY3' @ 0 : 0; will stop at '!items.effects!uykHx8ED7VArFkgD.dA9r6esBvPD2vcY3' @ 2273 : 0
-2024/04/30-04:29:24.672 138c Compacting 1@1 + 1@2 files
-2024/04/30-04:29:24.679 138c Generated table #121@1: 181 keys, 143464 bytes
-2024/04/30-04:29:24.679 138c Compacted 1@1 + 1@2 files => 143464 bytes
-2024/04/30-04:29:24.683 138c compacted to: files[ 0 0 1 0 0 0 0 ]
-2024/04/30-04:29:24.683 138c Delete type=2 #116
-2024/04/30-04:29:24.683 138c Delete type=2 #120
-2024/04/30-04:29:24.697 138c Manual compaction at level-1 from '!items.effects!uykHx8ED7VArFkgD.dA9r6esBvPD2vcY3' @ 2273 : 0 .. '!items.effects!uykHx8ED7VArFkgD.dA9r6esBvPD2vcY3' @ 0 : 0; will stop at (end)
+2024/04/30-04:50:04.792 46dc Recovering log #119
+2024/04/30-04:50:04.802 46dc Delete type=0 #119
+2024/04/30-04:50:04.802 46dc Delete type=3 #117
+2024/04/30-04:50:06.878 138c Level-0 table #125: started
+2024/04/30-04:50:06.878 138c Level-0 table #125: 0 bytes OK
+2024/04/30-04:50:06.881 138c Delete type=0 #123
+2024/04/30-04:50:06.885 138c Manual compaction at level-0 from '!folders!C8w0uHCVtGchfTsz' @ 72057594037927935 : 1 .. '!items.effects!uykHx8ED7VArFkgD.dA9r6esBvPD2vcY3' @ 0 : 0; will stop at (end)
+2024/04/30-04:50:06.885 138c Manual compaction at level-1 from '!folders!C8w0uHCVtGchfTsz' @ 72057594037927935 : 1 .. '!items.effects!uykHx8ED7VArFkgD.dA9r6esBvPD2vcY3' @ 0 : 0; will stop at (end)
