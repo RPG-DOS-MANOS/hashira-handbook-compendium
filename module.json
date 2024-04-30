@@ -1,7 +1,8 @@
 {
   "id": "hashira-handbook-compendium",
   "title": "Hashira HandBook Compendium",
-  "version": "1.0.0",
+  "description": "Compendium do Sistema Hashira HandBook 1.0",
+  "version": "0.1.0",
   "compatibility": {
     "minimum": "11",
     "verified": "11"
@@ -131,7 +132,12 @@
       }
     }
   ],
-  "url": "https://github.com/ari123rm/hashira-handbook-compendium",
-  "manifest": "https://raw.githubusercontent.com/ari123rm/hashira-handbook-compendium/main/module.json?token=GHSAT0AAAAAACQQP43RYZC4KCKU7JIECFXIZRQWTBQ",
-  "download": "https://github.com/ari123rm/hashira-handbook-compendium/archive/refs/heads/main.zip"
+  "media": [{
+		"type": "setup",
+		"url": "media/capaHashira.png",
+		"thumbnail": "media/capaHashira.png"
+	}],
+  "url": "https://github.com/RPG-DOS-MANOS/hashira-handbook-compendium",
+  "manifest": "https://raw.githubusercontent.com/RPG-DOS-MANOS/hashira-handbook-compendium/main/module.json?token=GHSAT0AAAAAACQQP43RSYRD23AP4CVEBMU4ZRQZ3UA",
+  "download": "https://github.com/RPG-DOS-MANOS/hashira-handbook-compendium/archive/refs/heads/main.zip"
 }
