@@ -132,6 +132,11 @@
       }
     }
   ],
+  "media": [{
+		"type": "setup",
+		"url": "media/capaHashira.png",
+		"thumbnail": "media/capaHashira.png"
+	}],
   "url": "https://github.com/RPG-DOS-MANOS/hashira-handbook-compendium",
   "manifest": "https://raw.githubusercontent.com/RPG-DOS-MANOS/hashira-handbook-compendium/main/module.json?token=GHSAT0AAAAAACQQP43RSYRD23AP4CVEBMU4ZRQZ3UA",
   "download": "https://github.com/RPG-DOS-MANOS/hashira-handbook-compendium/archive/refs/heads/main.zip"
