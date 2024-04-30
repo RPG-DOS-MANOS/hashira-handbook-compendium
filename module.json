@@ -130,5 +130,8 @@
         "ASSISTANT": "OWNER"
       }
     }
-  ]
+  ],
+  "url": "https://github.com/ari123rm/hashira-handbook-compendium",
+  "manifest": "https://raw.githubusercontent.com/ari123rm/hashira-handbook-compendium/main/module.json?token=GHSAT0AAAAAACQQP43RYZC4KCKU7JIECFXIZRQWTBQ",
+  "download": "https://github.com/ari123rm/hashira-handbook-compendium/archive/refs/heads/main.zip"
 }
