@@ -46,10 +46,10 @@
       "discord": "ryanrodrics"
     }
   ],
-  "styles":[
+  "styles": [
     "styles/ficha.css"
   ],
-  "scripts":[
+  "scripts": [
     "scripts/armas.js"
   ],
   "packs": [
@@ -98,10 +98,10 @@
       }
     },
     {
-      "name": "talentos",
-      "label": "Talentos",
-      "path": "packs/talentos",
-      "type": "Item",
+      "name": "macros",
+      "label": "Macros",
+      "path": "packs/macros",
+      "type": "Macro",
       "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -109,10 +109,21 @@
       }
     },
     {
-      "name": "macros",
-      "label": "Macros",
-      "path": "packs/macros",
-      "type": "Macro",
+      "name": "caracteristica-de-personagem",
+      "label": "Característica de Personagem",
+      "path": "packs/caracteristica-de-personagem",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    },
+    {
+      "name": "inimigos",
+      "label": "Inimigos",
+      "path": "packs/inimigos",
+      "type": "Actor",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"

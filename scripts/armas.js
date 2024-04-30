@@ -1,17 +1,16 @@
 Hooks.once("init", () => {
+
     CONFIG.DND5E.weaponTypes.unico = "Armas Únicas";
     CONFIG.DND5E.weaponProficiencies.unico = "Armas Únicas";
-    CONFIG.DND5E.weaponProficienciesMap.unicoR = "unico";
-    CONFIG.DND5E.weaponProficienciesMap.unicoM = "unico";
+    CONFIG.DND5E.weaponProficienciesMap.unico = "unico";
 
     CONFIG.DND5E.weaponTypes.pesado = "Armas Pesadas";
     CONFIG.DND5E.weaponProficiencies.pesado = "Armas Pesadas";
-    CONFIG.DND5E.weaponProficienciesMap.pesadoR = "pesado";
-    CONFIG.DND5E.weaponProficienciesMap.pesadoM = "pesado";
+    CONFIG.DND5E.weaponProficienciesMap.pesado = "pesado";
 
     CONFIG.DND5E.weaponTypes.fogo = "Armas de Fogo";
     CONFIG.DND5E.weaponProficiencies.fogo = "Armas de Fogo";
-    CONFIG.DND5E.weaponProficienciesMap.fogoR = "fogo";
+    CONFIG.DND5E.weaponProficienciesMap.fogo = "fogo";
     
     
 
@@ -50,6 +49,10 @@ Hooks.once("init", () => {
     CONFIG.DND5E.weaponIds.pistoladedoiscanos = "Compendium.hashira-handbook-compendium.itens.Item.gpEFXX5ySkJLSZTI";
     CONFIG.DND5E.weaponIds.revolver = "Compendium.hashira-handbook-compendium.itens.Item.fXQ4iJd8gnxmT4Y0";
     CONFIG.DND5E.weaponIds.rifle = "Compendium.hashira-handbook-compendium.itens.Item.khOsbpX31KK3Fgxf";
+    
+    //Munições
+    CONFIG.DND5E.consumableTypes.ammo.subtypes.bombamao = "Bomba de Mão";
+
 
 
     //Propriedades das Armas
@@ -58,9 +61,18 @@ Hooks.once("init", () => {
       isPhysical: "true"
     };
     CONFIG.DND5E.validProperties.weapon.add("decepadora");
+    
+    CONFIG.DND5E.itemProperties.tiroduplo = {
+      label: "Tiro Duplo",
+      isPhysical: "true"
+    };
+    CONFIG.DND5E.validProperties.weapon.add("tiroduplo");
+    
     //Tipo de Dano
     CONFIG.DND5E.damageTypes.primordial = {
       label: "Primordial",
+      icon: "https://image.spreadshirtmedia.com/image-server/v1/mp/products/T1459A839PA3861PT28D1035874524W10000H9085/views/1,width=800,height=800,appearanceId=839,backgroundColor=F2F2F2/tanjiro-scar-sticker.jpg",
+      color: new Color(0xcd2c1e),
       isPhysical: false
     };
     // etc etc
