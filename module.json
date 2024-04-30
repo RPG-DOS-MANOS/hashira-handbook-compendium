@@ -51,7 +51,7 @@
     "styles/ficha.css"
   ],
   "scripts": [
-    "scripts/armas.js"
+    "scripts/armas.js","scripts/logo.js","scripts/condicoes.js"
   ],
   "packs": [
     {
