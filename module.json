@@ -29,9 +29,8 @@
     ],
     "recommends": [
       {
-        "id": "custom-css",
-        "type": "module",
-        "compatibility": {}
+        "id": "pdf-pager",
+        "type": "module"
       }
     ]
   },
@@ -138,22 +137,22 @@
       "label": "Kekkijutsus",
       "path": "packs/kekkijutsus",
       "type": "Item",
+      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e"
+      }
     },
     {
       "name": "livro",
       "label": "Livro",
       "path": "packs/livro",
       "type": "JournalEntry",
+      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e"
+      }
     }
   ],
   "media": [
