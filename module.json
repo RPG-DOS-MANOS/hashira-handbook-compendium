@@ -51,7 +51,9 @@
     "styles/ficha.css"
   ],
   "scripts": [
-    "scripts/armas.js","scripts/logo.js","scripts/condicoes.js"
+    "scripts/armas.js",
+    "scripts/logo.js",
+    "scripts/condicoes.js"
   ],
   "packs": [
     {
@@ -130,13 +132,39 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       }
+    },
+    {
+      "name": "kekkijutsus",
+      "label": "Kekkijutsus",
+      "path": "packs/kekkijutsus",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    },
+    {
+      "name": "livro",
+      "label": "Livro",
+      "path": "packs/livro",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
     }
   ],
-  "media": [{
-		"type": "setup",
-		"url": "modules/hashira-handbook-compendium/media/capaHashira.png",
-		"thumbnail": "modules/hashira-handbook-compendium/media/capaHashira.png"
-	}],
+  "media": [
+    {
+      "type": "setup",
+      "url": "modules/hashira-handbook-compendium/media/capaHashira.png",
+      "thumbnail": "modules/hashira-handbook-compendium/media/capaHashira.png",
+      "loop": false,
+      "flags": {}
+    }
+  ],
   "url": "https://github.com/RPG-DOS-MANOS/hashira-handbook-compendium",
   "manifest": "https://raw.githubusercontent.com/RPG-DOS-MANOS/hashira-handbook-compendium/main/module.json?token=GHSAT0AAAAAACQQP43RSYRD23AP4CVEBMU4ZRQZ3UA",
   "download": "https://github.com/RPG-DOS-MANOS/hashira-handbook-compendium/archive/refs/heads/main.zip"
