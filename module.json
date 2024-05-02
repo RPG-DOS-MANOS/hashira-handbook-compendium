@@ -30,7 +30,8 @@
     "recommends": [
       {
         "id": "pdf-pager",
-        "type": "module"
+        "type": "module",
+        "compatibility": {}
       }
     ]
   },
