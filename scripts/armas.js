@@ -67,6 +67,12 @@ Hooks.once("init", () => {
       isPhysical: "true"
     };
     CONFIG.DND5E.validProperties.weapon.add("tiroduplo");
+
+    //Propriedades
+    CONFIG.DND5E.itemProperties.combinavel = {
+      label: "Combinável",
+    };
+    CONFIG.DND5E.validProperties.consumable.add("combinavel");
     
     //Tipo de Dano
     CONFIG.DND5E.damageTypes.primordial = {
