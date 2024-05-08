@@ -15,8 +15,10 @@
 
 
 
-
-
 .dnd5e2.sheet.actor.character .sheet-body .sidebar .favorites > ul li:first-of-type img{
     content: url(../../../icons/magic/symbols/symbol-lightning-bolt.webp);
+}
+
+:is(.dnd5e2, .dnd5e2-journal) :is(i, span).currency.iene {
+    background-image: url(https://cdn-icons-png.freepik.com/512/8467/8467570.png);
 }

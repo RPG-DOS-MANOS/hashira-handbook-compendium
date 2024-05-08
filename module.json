@@ -48,7 +48,8 @@
     }
   ],
   "styles": [
-    "styles/ficha.css"
+    "styles/ficha.css",
+    "styles/chat.css"
   ],
   "scripts": [
     "scripts/armas.js",

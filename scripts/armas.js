@@ -1,5 +1,5 @@
 Hooks.once("init", () => {
-
+  // Tipos de Armas
     CONFIG.DND5E.weaponTypes.unico = "Armas Únicas";
     CONFIG.DND5E.weaponProficiencies.unico = "Armas Únicas";
     CONFIG.DND5E.weaponProficienciesMap.unico = "unico";
@@ -82,4 +82,20 @@ Hooks.once("init", () => {
       isPhysical: false
     };
     // etc etc
+
+    //Dinheiro
+    delete CONFIG.DND5E.currencies.pp
+    delete CONFIG.DND5E.currencies.gp
+    delete CONFIG.DND5E.currencies.ep
+    delete CONFIG.DND5E.currencies.sp
+    delete CONFIG.DND5E.currencies.cp
+    CONFIG.DND5E.currencies.iene = {
+      label: "Iene",
+      abbreviation: "¥",
+      conversion: 1
+    }
+    CONFIG.DND5E.encumbrance.currencyPerWeight.metric = 100000000000000000000000000;
+    CONFIG.DND5E.encumbrance.currencyPerWeight.imperial = 100000000000000000000000000;
+    
   });
+  
