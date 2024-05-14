@@ -1,0 +1,18 @@
+#chat-log li table{
+	width:100%;
+	white-space:pre;
+    overflow-x:scroll;
+	display:grid;
+	
+}
+#chat-log li table td{
+	width:100%;
+	padding-right:5px;
+	text-align:justify;
+}
+#chat-log li table tr td:first-of-type {
+	
+	max-width:250px;
+    
+	
+}

@@ -1,5 +1,5 @@
 Hooks.once("init", () => {
-
+  // Tipos de Armas
     CONFIG.DND5E.weaponTypes.unico = "Armas Únicas";
     CONFIG.DND5E.weaponProficiencies.unico = "Armas Únicas";
     CONFIG.DND5E.weaponProficienciesMap.unico = "unico";
@@ -67,6 +67,12 @@ Hooks.once("init", () => {
       isPhysical: "true"
     };
     CONFIG.DND5E.validProperties.weapon.add("tiroduplo");
+
+    //Propriedades
+    CONFIG.DND5E.itemProperties.combinavel = {
+      label: "Combinável",
+    };
+    CONFIG.DND5E.validProperties.consumable.add("combinavel");
     
     //Tipo de Dano
     CONFIG.DND5E.damageTypes.primordial = {
@@ -76,4 +82,23 @@ Hooks.once("init", () => {
       isPhysical: false
     };
     // etc etc
+
+    //Dinheiro
+    delete CONFIG.DND5E.currencies.pp
+    delete CONFIG.DND5E.currencies.gp
+    delete CONFIG.DND5E.currencies.ep
+    delete CONFIG.DND5E.currencies.sp
+    delete CONFIG.DND5E.currencies.cp
+    CONFIG.DND5E.currencies.iene = {
+      label: "Iene",
+      abbreviation: "¥",
+      conversion: 1
+    }
+    CONFIG.DND5E.encumbrance.currencyPerWeight.metric = 100000000000000000000000000;
+    CONFIG.DND5E.encumbrance.currencyPerWeight.imperial = 100000000000000000000000000;
+    
+    CONFIG.DND5E.encumbrance.threshold.maximum.metric =  7.5;
+    CONFIG.DND5E.encumbrance.threshold.heavilyEncumbered.metric = 5;
+
   });
+  

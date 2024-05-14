@@ -1,6 +1,27 @@
+
 .dnd5e-theme-dark .dnd5e2.sheet.actor.character .sheet-header{
-    background: transparent url(https://i.pinimg.com/736x/b6/0a/db/b60adbbbbadfe675ab64fba4d8917be6.jpg) no-repeat center / cover;
+    background: transparent url(../media/ficha/cabecalhoHashiraHandbook.png) no-repeat center / cover;
 }
 .dnd5e-theme-dark .dnd5e2.sheet.actor.character .sheet-body{
-		background: transparent url(https://wallpapers-clan.com/wp-content/uploads/2023/09/tanjiro-kamado-flame-black-background.jpg) no-repeat center / cover;
+		background: transparent url(../media/ficha/darkmodeFicha.jpg) no-repeat center / cover;
+}
+
+.dnd5e-theme-light .dnd5e2.sheet.actor.character .sheet-header{
+    background: transparent url(../media/ficha/cabecalhoHashiraHandbook.png) no-repeat center / cover;
+}
+.dnd5e-theme-light .dnd5e2.sheet.actor.character .sheet-body{
+		background: transparent url(../media/ficha/lightmodeFicha.jpg) no-repeat center / cover;
+}
+
+
+
+.dnd5e2.sheet.actor.character .sheet-body .sidebar .favorites > ul li:first-of-type img{
+    content: url(../../../icons/magic/symbols/symbol-lightning-bolt.webp);
+}
+.dnd5e2.sheet.actor.character .sheet-body .sidebar .favorites > ul li:nth-last-child(2)  .gold-icon{
+    content: url(../media/Demoncorp.jpg);
+}
+
+:is(.dnd5e2, .dnd5e2-journal) :is(i, span).currency.iene {
+    background-image: url(https://cdn-icons-png.freepik.com/512/8467/8467570.png);
 }
