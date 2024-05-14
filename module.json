@@ -32,6 +32,10 @@
         "id": "pdf-pager",
         "type": "module",
         "compatibility": {}
+      },
+      {
+        "id": "dnd5e_pt-BR",
+        "type": "module"
       }
     ]
   },
@@ -161,11 +165,11 @@
       "label": "Hashira Handbook Compendium -  Aventura",
       "path": "packs/hashira-handbook-compendium-aventura",
       "type": "Adventure",
+      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e"
+      }
     }
   ],
   "media": [
