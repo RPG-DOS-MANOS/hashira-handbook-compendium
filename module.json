@@ -125,7 +125,7 @@
     },
     {
       "name": "inimigos",
-      "label": "Inimigos",
+      "label": "Criaturas",
       "path": "packs/inimigos",
       "type": "Actor",
       "system": "dnd5e",

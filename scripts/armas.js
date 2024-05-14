@@ -97,5 +97,8 @@ Hooks.once("init", () => {
     CONFIG.DND5E.encumbrance.currencyPerWeight.metric = 100000000000000000000000000;
     CONFIG.DND5E.encumbrance.currencyPerWeight.imperial = 100000000000000000000000000;
     
+    CONFIG.DND5E.encumbrance.threshold.maximum.metric =  7.5;
+    CONFIG.DND5E.encumbrance.threshold.heavilyEncumbered.metric = 5;
+
   });
   
