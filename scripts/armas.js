@@ -101,4 +101,3 @@ Hooks.once("init", () => {
     CONFIG.DND5E.encumbrance.threshold.heavilyEncumbered.metric = 5;
 
   });
-  

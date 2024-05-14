@@ -155,6 +155,17 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       }
+    },
+    {
+      "name": "hashira-handbook-compendium-aventura",
+      "label": "Hashira Handbook Compendium -  Aventura",
+      "path": "packs/hashira-handbook-compendium-aventura",
+      "type": "Adventure",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
     }
   ],
   "media": [
