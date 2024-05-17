@@ -32,6 +32,11 @@
         "id": "pdf-pager",
         "type": "module",
         "compatibility": {}
+      },
+      {
+        "id": "dnd5e_pt-BR",
+        "type": "module",
+        "compatibility": {}
       }
     ]
   },
@@ -54,7 +59,7 @@
   "scripts": [
     "scripts/armas.js",
     "scripts/logo.js",
-    "scripts/condicoes.js"
+    "scripts/ficha.js"
   ],
   "packs": [
     {
@@ -135,19 +140,8 @@
       }
     },
     {
-      "name": "kekkijutsus",
-      "label": "Kekkijutsus",
-      "path": "packs/kekkijutsus",
-      "type": "Item",
-      "system": "dnd5e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
       "name": "livro",
-      "label": "Livro",
+      "label": "Arquivos",
       "path": "packs/livro",
       "type": "JournalEntry",
       "system": "dnd5e",
@@ -161,6 +155,28 @@
       "label": "Hashira Handbook Compendium -  Aventura",
       "path": "packs/hashira-handbook-compendium-aventura",
       "type": "Adventure",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "mapas",
+      "label": "Mapas",
+      "path": "packs/mapas",
+      "type": "Scene",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "kekkijutsus",
+      "label": "Kekkijutsus",
+      "path": "packs/kekkijutsus",
+      "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
@@ -177,7 +193,5 @@
       "flags": {}
     }
   ],
-  "url": "https://github.com/RPG-DOS-MANOS/hashira-handbook-compendium",
-  "manifest": "https://raw.githubusercontent.com/RPG-DOS-MANOS/hashira-handbook-compendium/main/module.json?token=GHSAT0AAAAAACQQP43RSYRD23AP4CVEBMU4ZRQZ3UA",
-  "download": "https://github.com/RPG-DOS-MANOS/hashira-handbook-compendium/archive/refs/heads/main.zip"
+  "manifest": ""
 }
