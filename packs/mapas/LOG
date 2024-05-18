@@ -1,3 +1,8 @@
-2024/05/16-21:31:22.657 b80 Recovering log #42
-2024/05/16-21:31:22.667 b80 Delete type=0 #42
-2024/05/16-21:31:22.667 b80 Delete type=3 #40
+2024/05/17-15:31:18.156 3ca0 Recovering log #45
+2024/05/17-15:31:18.168 3ca0 Delete type=0 #45
+2024/05/17-15:31:18.168 3ca0 Delete type=3 #44
+2024/05/17-16:22:51.795 4430 Level-0 table #49: started
+2024/05/17-16:22:51.795 4430 Level-0 table #49: 0 bytes OK
+2024/05/17-16:22:51.798 4430 Delete type=0 #47
+2024/05/17-16:22:51.802 4430 Manual compaction at level-0 from '!scenes!18eQb2RCuIIuNLO2' @ 72057594037927935 : 1 .. '!scenes.tokens.delta!18eQb2RCuIIuNLO2.yQy2VJf7JBbHktKv.TaCGunDheaxHHAwm' @ 0 : 0; will stop at (end)
+2024/05/17-16:22:51.802 4430 Manual compaction at level-1 from '!scenes!18eQb2RCuIIuNLO2' @ 72057594037927935 : 1 .. '!scenes.tokens.delta!18eQb2RCuIIuNLO2.yQy2VJf7JBbHktKv.TaCGunDheaxHHAwm' @ 0 : 0; will stop at (end)
