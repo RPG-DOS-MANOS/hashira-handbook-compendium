@@ -86,7 +86,6 @@ Hooks.once("init", () => {
     CONFIG.DND5E.enchantment.subtypes.modSmith = "Armamento Personalizado";
     CONFIG.DND5E.enchantment.subtypes.modMelee = "Alteração de Arma Corpo-a-Corpo";
     CONFIG.DND5E.enchantment.subtypes.modRange = "Alteração de Arma à Distância";
-    CONFIG.DND5E.enchantment.subtypes.modFire = "Alteração de Arma de Fogo";
 
     //Dinheiro
     delete CONFIG.DND5E.currencies.pp
