@@ -81,7 +81,11 @@ Hooks.once("init", () => {
       color: new Color(0xcd2c1e),
       isPhysical: false
     };
-    // etc etc
+
+    // Modificações (encantamentos)
+    CONFIG.DND5E.enchantment.subtypes.modMelee = "Alteração de Arma Corpo-a-Corpo";
+    CONFIG.DND5E.enchantment.subtypes.modMelee = "Alteração de Arma à Distância";
+    CONFIG.DND5E.enchantment.subtypes.modMelee = "Alteração de Arma de Fogo";
 
     //Dinheiro
     delete CONFIG.DND5E.currencies.pp
