@@ -1,3 +1,8 @@
-2024/05/23-02:40:49.361 4bc8 Recovering log #106
-2024/05/23-02:40:49.369 4bc8 Delete type=0 #106
-2024/05/23-02:40:49.370 4bc8 Delete type=3 #104
+2024/05/23-16:26:17.674 48d8 Recovering log #132
+2024/05/23-16:26:17.682 48d8 Delete type=0 #132
+2024/05/23-16:26:17.682 48d8 Delete type=3 #130
+2024/05/23-16:27:42.766 ca8 Level-0 table #137: started
+2024/05/23-16:27:42.766 ca8 Level-0 table #137: 0 bytes OK
+2024/05/23-16:27:42.774 ca8 Delete type=0 #135
+2024/05/23-16:27:42.784 ca8 Manual compaction at level-0 from '!scenes!18eQb2RCuIIuNLO2' @ 72057594037927935 : 1 .. '!scenes.tokens.delta!18eQb2RCuIIuNLO2.yQy2VJf7JBbHktKv.TaCGunDheaxHHAwm' @ 0 : 0; will stop at (end)
+2024/05/23-16:27:42.784 ca8 Manual compaction at level-1 from '!scenes!18eQb2RCuIIuNLO2' @ 72057594037927935 : 1 .. '!scenes.tokens.delta!18eQb2RCuIIuNLO2.yQy2VJf7JBbHktKv.TaCGunDheaxHHAwm' @ 0 : 0; will stop at (end)

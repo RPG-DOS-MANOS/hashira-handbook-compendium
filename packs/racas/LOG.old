@@ -1,3 +1,8 @@
-2024/05/23-02:40:49.232 3190 Recovering log #491
-2024/05/23-02:40:49.241 3190 Delete type=0 #491
-2024/05/23-02:40:49.241 3190 Delete type=3 #489
+2024/05/23-16:26:17.547 48e0 Recovering log #517
+2024/05/23-16:26:17.557 48e0 Delete type=0 #517
+2024/05/23-16:26:17.557 48e0 Delete type=3 #515
+2024/05/23-16:27:42.746 ca8 Level-0 table #523: started
+2024/05/23-16:27:42.747 ca8 Level-0 table #523: 0 bytes OK
+2024/05/23-16:27:42.752 ca8 Delete type=0 #521
+2024/05/23-16:27:42.763 ca8 Manual compaction at level-0 from '!items!55OteCYyCYaLK7FU' @ 72057594037927935 : 1 .. '!items!zsu5rMXJhDHSbv6q' @ 0 : 0; will stop at (end)
+2024/05/23-16:27:42.763 ca8 Manual compaction at level-1 from '!items!55OteCYyCYaLK7FU' @ 72057594037927935 : 1 .. '!items!zsu5rMXJhDHSbv6q' @ 0 : 0; will stop at (end)

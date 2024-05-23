@@ -100,10 +100,70 @@ Hooks.once("init", () => {
       abbreviation: "¥",
       conversion: 1
     }
+
+    //peso
     CONFIG.DND5E.encumbrance.currencyPerWeight.metric = 100000000000000000000000000;
     CONFIG.DND5E.encumbrance.currencyPerWeight.imperial = 100000000000000000000000000;
     
     CONFIG.DND5E.encumbrance.threshold.maximum.metric =  7.5;
     CONFIG.DND5E.encumbrance.threshold.heavilyEncumbered.metric = 5;
+
+
+    //escolas de magia
+    CONFIG.DND5E.spellSchools.resp = {
+      label: "Técnica de Respiração",
+      icon: "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      fullkey:"respiracao",
+      reference: "Compendium.hashira-handbook-compendium.livro.JournalEntry.bh3bNXTLm09YKRMT.JournalEntryPage.SzqbxHpRaGnhwHeh"
+    } 
+    CONFIG.DND5E.spellSchools.kekkijutsu = {
+      label: "Kekkijutsu de Classe",
+      icon: "icons/magic/symbols/rune-sigil-hook-white-red.webp",
+      fullkey:"kekkijutsu",
+      reference: "Compendium.hashira-handbook-compendium.livro.JournalEntry.aDUBE0I3agLToN5W.JournalEntryPage.D8D6ZB8hNu8t7gZl"
+    }
+    CONFIG.DND5E.spellSchools.hinokami = {
+      label: "Hinokami Kagura",
+      icon: "icons/magic/fire/barrier-wall-flame-ring-yellow.webp",
+      fullkey:"HinokamiKagura",
+      reference: "Compendium.hashira-handbook-compendium.livro.JournalEntry.bh3bNXTLm09YKRMT.JournalEntryPage.bcDFA4w500zslyRi"
+    } 
+    CONFIG.DND5E.spellSchools.kekkijutsuSol = {
+      label: "Kekkijutsu do Sol",
+      icon: "icons/magic/lightning/bolt-strike-explosion-yellow.webp",
+      fullkey:"kekkijutsuSol",
+      reference: "Compendium.hashira-handbook-compendium.livro.JournalEntry.aDUBE0I3agLToN5W.JournalEntryPage.gQ7H5KDDiM5jKxju"
+    }
+    CONFIG.DND5E.spellSchools.concentracao = {
+      label: "Concentração Total",
+      icon: "icons/skills/melee/maneuver-greatsword-yellow.webp",
+      fullkey:"concentracaoTotal",
+      reference: "Compendium.hashira-handbook-compendium.livro.JournalEntry.aDUBE0I3agLToN5W.JournalEntryPage.gQ7H5KDDiM5jKxju"
+    }
+    CONFIG.DND5E.spellSchools.kekkijutsuElemental = {
+      label: "Kekkijutsu Elemental",
+      icon: "icons/magic/symbols/elements-air-earth-fire-water.webp",
+      fullkey:"kekkijutsuElemental",
+      reference: "Compendium.hashira-handbook-compendium.livro.JournalEntry.aDUBE0I3agLToN5W.JournalEntryPage.D8D6ZB8hNu8t7gZl"
+    }
+
+
+
+
+
+
+
+
+    delete CONFIG.DND5E.spellSchools.abj;
+    delete CONFIG.DND5E.spellSchools.con;
+    delete CONFIG.DND5E.spellSchools.div;
+    delete CONFIG.DND5E.spellSchools.enc;
+    delete CONFIG.DND5E.spellSchools.evo;
+    delete CONFIG.DND5E.spellSchools.ill;
+    delete CONFIG.DND5E.spellSchools.nec;
+    delete CONFIG.DND5E.spellSchools.trs;
+
+
+
 
   });
