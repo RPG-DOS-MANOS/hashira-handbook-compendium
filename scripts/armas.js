@@ -83,9 +83,11 @@ Hooks.once("init", () => {
     };
 
     // Modificações (encantamentos)
-    CONFIG.DND5E.enchantment.subtypes.modSmith = "Armamento Personalizado";
-    CONFIG.DND5E.enchantment.subtypes.modMelee = "Alteração de Arma Corpo-a-Corpo";
-    CONFIG.DND5E.enchantment.subtypes.modRange = "Alteração de Arma à Distância";
+    CONFIG.DND5E.featureTypes.enchantment.subtypes.modSmith = "Armamento Personalizado";
+    CONFIG.DND5E.featureTypes.enchantment.subtypes.modMelee = "Alteração de Arma Corpo-a-Corpo";
+    CONFIG.DND5E.featureTypes.enchantment.subtypes.modRange = "Alteração de Arma à Distância";
+    CONFIG.DND5E.featureTypes.enchantment.subtypes.nichirin = "Nichirin";
+
 
     //Dinheiro
     delete CONFIG.DND5E.currencies.pp
