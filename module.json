@@ -182,6 +182,17 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       }
+    },
+    {
+      "name": "kekkijutsus-elementais",
+      "label": "Kekkijutsus Elementais",
+      "path": "packs/kekkijutsus-elementais",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
     }
   ],
   "media": [

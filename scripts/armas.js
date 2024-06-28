@@ -146,14 +146,6 @@ Hooks.once("init", () => {
       fullkey:"kekkijutsuElemental",
       reference: "Compendium.hashira-handbook-compendium.livro.JournalEntry.aDUBE0I3agLToN5W.JournalEntryPage.D8D6ZB8hNu8t7gZl"
     }
-
-
-
-
-
-
-
-
     delete CONFIG.DND5E.spellSchools.abj;
     delete CONFIG.DND5E.spellSchools.con;
     delete CONFIG.DND5E.spellSchools.div;
@@ -164,6 +156,6 @@ Hooks.once("init", () => {
     delete CONFIG.DND5E.spellSchools.trs;
 
 
-
+    
 
   });

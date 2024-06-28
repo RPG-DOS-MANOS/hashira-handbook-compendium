@@ -1,0 +1,5 @@
+2024/05/23-18:54:36.428 48d8 Delete type=3 #1
+2024/05/23-18:56:10.811 ca8 Level-0 table #5: started
+2024/05/23-18:56:10.811 ca8 Level-0 table #5: 0 bytes OK
+2024/05/23-18:56:10.814 ca8 Delete type=0 #3
+2024/05/23-18:56:10.821 ca8 Manual compaction at level-0 from 'undefined' @ 72057594037927935 : 1 .. 'undefined' @ 0 : 0; will stop at (end)
