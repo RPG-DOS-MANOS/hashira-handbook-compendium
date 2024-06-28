@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "compatibility": {
     "minimum": "11",
-    "verified": "11"
+    "verified": "12"
   },
   "relationships": {
     "requires": [
@@ -86,7 +86,7 @@
     },
     {
       "name": "antecendentes",
-      "label": "Antecendentes",
+      "label": "Antecedentes",
       "path": "packs/antecendentes",
       "type": "Item",
       "system": "dnd5e",
@@ -176,6 +176,17 @@
       "name": "kekkijutsus",
       "label": "Kekkijutsus",
       "path": "packs/kekkijutsus",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "kekkijutsus-elementais",
+      "label": "Kekkijutsus Elementais",
+      "path": "packs/kekkijutsus-elementais",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
