@@ -52,7 +52,25 @@ Hooks.once("init", () => {
     
     //Munições
     CONFIG.DND5E.consumableTypes.ammo.subtypes.bombamao = "Bomba de Mão";
-
+    CONFIG.DND5E.consumableTypes.pe = {
+      label:"Pontos de Energia"
+    }
+    CONFIG.DND5E.consumableTypes.patentes = {
+      label:"Patentes",
+      subtypes:{
+        0:"Mizunoto",
+        1:"Mizunoe",
+        2:"Kanoto",
+        3:"Kanoe",
+        4:"Tsuchinoto",
+        5:"Tsuchinoe",
+        6:"Hinoto",
+        7:"Hinoe",
+        8:"Kinoto",
+        9:"Kinoe",
+        10:"Hashira"
+      }
+    }
 
 
     //Propriedades das Armas
