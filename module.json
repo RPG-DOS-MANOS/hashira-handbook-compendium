@@ -44,14 +44,12 @@
     {
       "name": "Ariel",
       "email": "rpdosmanos@gmail.com",
-      "discord": "japaping",
-      "flags": {}
+      "discord": "japaping"
     },
     {
       "name": "Ryan",
       "email": "rpdosmanos@gmail.com",
-      "discord": "ryanrodrics",
-      "flags": {}
+      "discord": "ryanrodrics"
     }
   ],
   "styles": [
@@ -74,6 +72,7 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       }
+      
     },
     {
       "name": "racas",
@@ -190,11 +189,11 @@
       "label": "Kekkijutsus Elementais",
       "path": "packs/kekkijutsus-elementais",
       "type": "Item",
-      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "system": "dnd5e"
     }
   ],
   "media": [
@@ -206,5 +205,7 @@
       "flags": {}
     }
   ],
-  "manifest": ""
+  "url":"https://github.com/RPG-DOS-MANOS/hashira-handbook-compendium",
+  "manifest": "https://raw.githubusercontent.com/RPG-DOS-MANOS/hashira-handbook-compendium/main/module.json",
+  "download":"https://github.com/RPG-DOS-MANOS/hashira-handbook-compendium/archive/refs/heads/main.zip"
 }
