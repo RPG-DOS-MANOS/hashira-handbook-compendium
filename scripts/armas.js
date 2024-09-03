@@ -173,7 +173,104 @@ Hooks.once("init", () => {
     delete CONFIG.DND5E.spellSchools.nec;
     delete CONFIG.DND5E.spellSchools.trs;
 
+  CONFIG.DND5E.spellcastingTypes.resp = {    label: 'Respirações' };
+  CONFIG.DND5E.spellProgression.resp = 'Respirações';
+  CONFIG.DND5E.spellPreparationModes.resp = {
+    label: 'Respirações',
+    upcast: true,
+    order: 0.75,
+  };
+  CONFIG.DND5E.respCastingProgression = {
+    1: { slots: 1, level: 1 },
+    2: { slots: 2, level: 1 },
+    3: { slots: 3, level: 1 },
+    4: { slots: 4, level: 1 },
+    5: { slots: 5, level: 1 },
+    6: { slots: 6, level: 1 },
+    7: { slots: 7, level: 2},
+    8: { slots: 8, level: 2 },
+    9: { slots: 9, level: 2 },
+    10: { slots: 10, level: 3 },
+    11: { slots: 11, level: 3 },
+    12: { slots: 12, level: 3 },
+    13: { slots: 13, level: 4 },
+    14: { slots: 14, level: 4 },
+    15: { slots: 15, level: 4 },
+    16: { slots: 16, level: 4 },
+    17: { slots: 17, level: 4 },
+    18: { slots: 18, level: 4 },
+    19: { slots: 19, level: 4 },
+    20: { slots: 20, level: 4 },
+  };
+    Hooks.on(`dnd5e.computeRespProgression`, computeRespProgression);
+    Hooks.on(`dnd5e.prepareRespSlots`, prepareRespSlots);
 
-    
-
+    CONFIG.DND5E.spellcastingTypes.eternalCrusader = {
+      label: 'Respiração do Inseto',
+      img: 'icons/consumables/potions/bottle-round-corked-orante-red.webp',
+      shortRest: true,
+    };
+    CONFIG.DND5E.spellProgression.eternalCrusader = 'Respiração do Inseto';
+    CONFIG.DND5E.spellPreparationModes.eternalCrusader = {
+      label: 'Respiração do Inseto',
+      upcast: true,
+      order: 0.75,
+    };
+    Hooks.on('dnd5e.computeEternalCrusaderProgression', computeProgression);
+    Hooks.on('dnd5e.prepareEternalCrusaderSlots', prepareSlots);
   });
+  function computeRespProgression(progression, actor, cls, spellcasting, count) {
+    progression.resp ??= 0;
+    progression.resp += spellcasting.levels;
+  }
+  
+  function prepareRespSlots(spells, actor, progression) {
+    const table = {
+      1: { slots: 1, level: 1 },
+      2: { slots: 2, level: 1 },
+      3: { slots: 3, level: 1 },
+      4: { slots: 4, level: 1 },
+      5: { slots: 5, level: 1 },
+      6: { slots: 6, level: 1 },
+      7: { slots: 7, level: 2},
+      8: { slots: 8, level: 2 },
+      9: { slots: 9, level: 2 },
+      10: { slots: 10, level: 3 },
+      11: { slots: 11, level: 3 },
+      12: { slots: 12, level: 3 },
+      13: { slots: 13, level: 4 },
+      14: { slots: 14, level: 4 },
+      15: { slots: 15, level: 4 },
+      16: { slots: 16, level: 4 },
+      17: { slots: 17, level: 4 },
+      18: { slots: 18, level: 4 },
+      19: { slots: 19, level: 4 },
+      20: { slots: 20, level: 4 },
+    };
+  
+    CONFIG.Actor.documentClass.prepareAltSlots(spells, actor, progression, 'resp', table);
+    
+  }
+
+  function computeProgression(progression, actor, cls, spellcasting, count) {
+    progression.eternalCrusader ??= 0;
+    progression.eternalCrusader += spellcasting.levels;
+  }
+  
+  function prepareSlots(spells, actor, progression) {
+    const table = {
+      1: { slots: 1, level: 1 },
+      3: { slots: 2, level: 1 },
+      5: { slots: 3, level: 1 },
+      7: { slots: 4, level: 2 },
+      9: { slots: 5, level: 2 },
+      10: { slots: 5, level: 3 },
+      11: { slots: 6, level: 3 },
+      13: { slots: 7, level: 4 },
+      15: { slots: 8, level: 4 },
+      17: { slots: 9, level: 4 },
+      19: { slots: 10, level: 4 },
+    };
+  
+    CONFIG.Actor.documentClass.prepareAltSlots(spells, actor, progression, 'eternalCrusader', table);
+  }

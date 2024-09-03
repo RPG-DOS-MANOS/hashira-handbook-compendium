@@ -8,4 +8,9 @@ Hooks.once("init", () => {
     CONFIG.DND5E.sourcePacks.BACKGROUNDS = "hashira-handbook-compendium.antecendentes";
     CONFIG.DND5E.sourcePacks.RACES = "hashira-handbook-compendium.racas";
     CONFIG.DND5E.sourcePacks.CLASSES = "hashira-handbook-compendium.classes";
+
+   
+
+
+
 });
