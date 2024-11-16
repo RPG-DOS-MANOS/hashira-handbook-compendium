@@ -1,3 +1,8 @@
-2024/09/06-00:22:15.850 420c Recovering log #484
-2024/09/06-00:22:15.859 420c Delete type=0 #484
-2024/09/06-00:22:15.859 420c Delete type=3 #482
+2024/09/13-20:24:52.632 738 Recovering log #497
+2024/09/13-20:24:52.641 738 Delete type=0 #497
+2024/09/13-20:24:52.641 738 Delete type=3 #496
+2024/09/13-20:33:53.100 3230 Level-0 table #501: started
+2024/09/13-20:33:53.100 3230 Level-0 table #501: 0 bytes OK
+2024/09/13-20:33:53.106 3230 Delete type=0 #499
+2024/09/13-20:33:53.106 3230 Manual compaction at level-0 from '!adventures!rZV1sSIqs8TkUTgE' @ 72057594037927935 : 1 .. '!adventures!rZV1sSIqs8TkUTgE' @ 0 : 0; will stop at (end)
+2024/09/13-20:33:53.106 3230 Manual compaction at level-1 from '!adventures!rZV1sSIqs8TkUTgE' @ 72057594037927935 : 1 .. '!adventures!rZV1sSIqs8TkUTgE' @ 0 : 0; will stop at (end)
