@@ -2,7 +2,7 @@
   "id": "hashira-handbook-compendium",
   "title": "Hashira HandBook Compendium",
   "description": "Compendium do Sistema Hashira HandBook 1.0",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "compatibility": {
     "minimum": "11",
     "verified": "12"
@@ -16,6 +16,26 @@
       },
       {
         "id": "dae",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "midi-qol",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "times-up",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "about-time",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "itemacro",
         "type": "module",
         "compatibility": {}
       }
@@ -44,12 +64,14 @@
     {
       "name": "Ariel",
       "email": "rpdosmanos@gmail.com",
-      "discord": "japaping"
+      "discord": "japaping",
+      "flags": {}
     },
     {
       "name": "Ryan",
       "email": "rpdosmanos@gmail.com",
-      "discord": "ryanrodrics"
+      "discord": "ryanrodrics",
+      "flags": {}
     }
   ],
   "styles": [
@@ -72,7 +94,6 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       }
-      
     },
     {
       "name": "racas",
@@ -189,11 +210,11 @@
       "label": "Kekkijutsus Elementais",
       "path": "packs/kekkijutsus-elementais",
       "type": "Item",
+      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e"
+      }
     }
   ],
   "media": [
@@ -205,7 +226,7 @@
       "flags": {}
     }
   ],
-  "url":"https://github.com/RPG-DOS-MANOS/hashira-handbook-compendium",
+  "url": "https://github.com/RPG-DOS-MANOS/hashira-handbook-compendium",
   "manifest": "https://raw.githubusercontent.com/RPG-DOS-MANOS/hashira-handbook-compendium/main/module.json",
-  "download":"https://github.com/RPG-DOS-MANOS/hashira-handbook-compendium/archive/refs/heads/main.zip"
+  "download": "https://github.com/RPG-DOS-MANOS/hashira-handbook-compendium/archive/refs/heads/main.zip"
 }

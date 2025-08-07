@@ -179,6 +179,7 @@ Hooks.once("init", () => {
     label: 'Respirações',
     upcast: true,
     order: 0.75,
+    
   };
   CONFIG.DND5E.respCastingProgression = {
     1: { slots: 1, level: 1 },
@@ -208,16 +209,19 @@ Hooks.once("init", () => {
     CONFIG.DND5E.spellcastingTypes.eternalCrusader = {
       label: 'Respiração do Inseto',
       img: 'icons/consumables/potions/bottle-round-corked-orante-red.webp',
-      shortRest: true,
+      
     };
     CONFIG.DND5E.spellProgression.eternalCrusader = 'Respiração do Inseto';
     CONFIG.DND5E.spellPreparationModes.eternalCrusader = {
       label: 'Respiração do Inseto',
       upcast: true,
       order: 0.75,
+      
     };
     Hooks.on('dnd5e.computeEternalCrusaderProgression', computeProgression);
     Hooks.on('dnd5e.prepareEternalCrusaderSlots', prepareSlots);
+
+    Hooks.on("dnd5e.restCompleted", restoreCustomSpellSlots);
   });
   function computeRespProgression(progression, actor, cls, spellcasting, count) {
     progression.resp ??= 0;
@@ -274,3 +278,32 @@ Hooks.once("init", () => {
   
     CONFIG.Actor.documentClass.prepareAltSlots(spells, actor, progression, 'eternalCrusader', table);
   }
+
+function restoreCustomSpellSlots(actor, data) {
+  // Verifique se o descanso foi longo.
+  console.log(actor);
+  console.log(data);
+
+  if (data.type === "long") {
+    // Objeto para armazenar as atualizações
+    const updates = {};
+
+    // Restaura os slots de "Respirações"
+    const respSlots = actor.system.spells.resp;
+    if (respSlots) {
+      updates["system.spells.resp.value"] = respSlots.max;
+    }
+
+    // Restaura os slots de "Respiração do Inseto"
+    const eternalCrusaderSlots = actor.system.spells.eternalCrusader;
+    if (eternalCrusaderSlots) {
+      updates["system.spells.eternalCrusader.value"] = eternalCrusaderSlots.max;
+    }
+
+    // Se houver alguma atualização, aplique-a ao ator
+    if (Object.keys(updates).length > 0) {
+      console.log("Applying updates to actor:", updates);
+      actor.update(updates);
+    }
+  }
+}
