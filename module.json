@@ -2,7 +2,7 @@
   "id": "hashira-handbook-compendium",
   "title": "Hashira HandBook Compendium",
   "description": "Compendium do Sistema Hashira HandBook 1.0",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "compatibility": {
     "minimum": "11",
     "verified": "12"
